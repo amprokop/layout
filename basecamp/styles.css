@@ -1,3 +1,162 @@
 body{
-  /* rules go here */
+  color: #000;
+  font-family: "Proxima Nova", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0 1em 50px;
+}
+
+header{
+  border-bottom: 1px solid #ded7c8;
+  padding:0 0 10px 0;
+}
+
+a.logo{
+  background: url(basecamp-logo.png) no-repeat center top;
+  width: 194px;
+  padding: 55px 0 0 0;
+  margin: 10px 0 0 20px;
+  display: inline-block;
+  height: 0;
+  overflow: hidden;
+}
+nav{
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding-right: 20px; 
+}
+
+nav ul{
+  text-align: center;
+  text-decoration: none;
+}
+
+li {
+  color: #06C;
+  display: inline-block;
+  padding-right: 40px;
+  margin-right: 20px;
+}
+strong{
+  color: #06C;
+  text-decoration: underline;
+}
+sub {
+  text-decoration: none;
+  color: black;
+}
+
+li a {
+  text-decoration: none;
+}
+
+a.login-button {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 3px;
+  background-color: #06C;
+  border-bottom: 2px solid #105296;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  top: 0;
+  right: 0;
+  width: 46px;
+  margin: 10px 10px 0 10px;
+  position: absolute;
+}
+li strong {
+  display: block;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 1em;
+  text-align: center;
+}
+.signup{
+border-radius: 20px;
+box-sizing: border-box;
+border: 5px solid black;
+float: right;
+padding: 2em 2.5em 2.5em;
+max-width: 400px;
+width: 55%;
+}
+
+h2 {
+  color: #cc0000;
+  text-align: center;
+  margin: 8px;
+}
+
+h3 {
+  margin: 8px;
+  font-weight: normal;
+  text-align: center;
+}
+
+div.signup > p {
+  font-size: 12px;
+}
+
+input {
+  background-color: white;
+  border: 1px solid #CCC;
+  border-top: 1px solid #999;
+  font-size: 14px;
+  padding: 8px 5px;
+  vertical-align: middle;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input.button{
+  background: -webkit-gradient(linear, left top, left bottom, from(#8fc857), to(#5c9425));
+  border: 1px solid #5c9425;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 30px;
+}
+
+label > p {
+  margin: 0;
+}
+
+div.joy{
+  bottom: 40px;
+  display: inline-block;
+  position: absolute;
+  left: 12%;
+  max-width: 100%;
+  width: 38%;
+  border-bottom: 1px solid #ded7c8;  
+
+}
+
+blockquote{
+  bottom: 95%;
+  font-size: 16px;
+  line-height: 1.25em;
+  margin-left: -12%;
+  max-width: 260px;
+  position: absolute;
+  width: 85%;
+}
+
+div.joy img{
+  width: 327px;
+  height: auto;
+}
+
+div.hero {
+
 }
